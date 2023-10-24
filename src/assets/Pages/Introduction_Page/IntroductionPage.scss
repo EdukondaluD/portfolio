@@ -1,0 +1,70 @@
+.scrollsubContainer {
+    height: 100vh;
+    width: 100vw;
+    .mainContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      .rowOneContainer{
+        //background-color: rgb(248, 27, 2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100%;
+        width: 50%;
+        img{
+          height: 360px;
+          width: 360px;
+          border-radius: 60%;
+        }
+      }
+      .rowTwoContainer{
+        //background-color: rgb(1, 255, 247);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 100%;
+        width: 50%;
+        padding-left: 3%;
+        h1{
+          margin: 0;
+          padding: 0;
+          margin-bottom: 2%;
+        }
+        p{
+          margin: 0;
+          padding: 0;
+          margin-bottom: 3px;
+          font-size: 1rem;
+        }
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2%;
+          .buttonContainer {
+            padding: 5px 20px;
+            border: 1px solid #04f6e2;
+            margin-right: 3%;
+            border-radius: 4px;
+            p{
+              margin: 0;
+              padding: 0;
+              margin-right: 3%;
+              font-size: 1rem;
+              color: #000000;
+            }
+          }
+          .buttonContainer:hover{
+            background-color: #04f6e2;
+          }
+        }
+      }
+    }
+  }
